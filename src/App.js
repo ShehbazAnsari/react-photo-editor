@@ -118,7 +118,6 @@ function App() {
     return { filter: filters.join(' ') }
   }
 
-  console.log(getImageStyle())
   return (
     <div className="container">
       <div className="main-image" style={getImageStyle()}></div>
